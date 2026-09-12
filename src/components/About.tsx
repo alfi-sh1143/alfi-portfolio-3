@@ -38,7 +38,7 @@ export default function About({ onOpenAboutModal, onOpenImage }: AboutProps) {
                 src={portfolio.profileImage}
                 alt={portfolio.name}
                 referrerPolicy="no-referrer"
-                className="w-full h-80 sm:h-96 object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                className="w-full h-80 sm:h-96 object-cover object-[center_20%] transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#080d1a] via-transparent to-transparent opacity-90" />
               <div className="absolute bottom-5 inset-x-5 flex items-center justify-between">

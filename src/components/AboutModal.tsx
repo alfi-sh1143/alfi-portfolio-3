@@ -25,7 +25,7 @@ export default function AboutModal({ isOpen, onClose }: AboutModalProps) {
               src={portfolio.profileImage}
               alt={portfolio.name}
               referrerPolicy="no-referrer"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-[center_20%]"
             />
           </div>
           <div className="flex-1 text-center sm:text-left space-y-2">

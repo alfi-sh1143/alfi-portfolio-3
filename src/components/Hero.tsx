@@ -133,7 +133,7 @@ export default function Hero({ onOpenCV, onOpenImage }: HeroProps) {
                   src={portfolio.profileImage}
                   alt={portfolio.name}
                   referrerPolicy="no-referrer"
-                  className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
+                  className="w-full h-full object-cover object-[center_20%] transition-transform duration-700 group-hover:scale-105"
                   loading="eager"
                 />
 
